@@ -6,7 +6,9 @@ Yii2 SoftDelete
 [![Latest Unstable Version](https://poser.pugx.org/yiithings/yii2-softdelete/v/unstable.svg)](https://packagist.org/packages/yiithings/yii2-softdelete)
 [![License](https://poser.pugx.org/yiithings/yii2-softdelete/license.svg)](https://packagist.org/packages/yiithings/yii2-softdelete)
 
-Soft delete behavior extension for Yii2 framework.
+Soft delete extension for Yii2 framework.
+
+This extension ensures that soft-deleted has delete native consistent performance and is IDE-friendly. 
 
 Installation
 ------------
@@ -51,7 +53,7 @@ class Model extends \yii\db\ActiveRecord
 }
 ```
 
-Change database table structures, add `deleted_at (int 11)` field.
+Change database table structures, add `deleted_at (int 11)` field and attached to UNIQUE index. 
 
 API
 ---

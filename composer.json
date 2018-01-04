@@ -1,6 +1,6 @@
 {
     "name": "yiithings/yii2-softdelete",
-    "description": "Soft delete behavior extension for Yii2 framework",
+    "description": "Soft delete extension for Yii2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","softdelete"],
     "license": "MIT",
