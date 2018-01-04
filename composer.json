@@ -1,0 +1,25 @@
+{
+    "name": "yiithings/yii2-softdelete",
+    "description": "Soft delete behavior extension for Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","softdelete"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panlatent",
+            "email": "panlatent@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiithings\\softdelete\\": "src/"
+        }
+    }
+}
