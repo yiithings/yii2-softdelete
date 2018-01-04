@@ -8,7 +8,7 @@ Yii2 SoftDelete
 
 Soft delete extension for Yii2 framework.
 
-This extension ensures that soft-deleted has delete native consistent performance and is IDE-friendly. 
+This extension ensures that soft-deleted has delete native consistent behavior and is IDE-friendly. 
 
 Installation
 ------------
